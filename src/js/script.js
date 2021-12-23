@@ -1,7 +1,7 @@
 /* Objeto con todas las preguntas */
 const preguntas =[
     {
-        pregunta:'Latin America is a hotspot for corruption and nepotism. How sure are you in your company that you will not suffer losses through corruption and nepotism?',
+        pregunta:'<p>Latin America is a hotspot for corruption and nepotism.</p><ul><li>How sure are you in your company that you will not suffer losses through corruption and nepotism?</li></ul>',
         respuestas: [
             {
                 respuesta: 'Sure',
@@ -44,186 +44,51 @@ const preguntas =[
         ],
         explicacion: 'Work with local, inexpensive corporate finance and M&A specialists. We also know the cultural soft facts and risks that have to be taken into account as well as the mathematically calculated value of an investment.',
         urlImage: './src/assets/IntroTest.jpg'
-    },/*
-    {
-        pregunta:'¿La cesárea influye en que no tenga buena bajada de leche?',
-        respuestas: [
-            {
-                respuesta: 'Si.',
-                correct: false
-            },
-            {
-                respuesta: 'No.',
-                correct: true
-            }
-        ],
-        explicacion: 'Una vez nace el bebé, la placenta comienza a salir y así manda la orden al cerebro que empiece la producción de leche, por eso la cesárea no influye en la bajada de la leche. Lo que sí puede pasar es que si no tenemos nuestro bebé lo más pronto posible y demoramos mucho ese piel a piel, o si el dolor no nos deja estar tranquilas con nuestro bebé, o si no logramos ese enganche por la razón que sea lo antes posible, entonces sí es cierto que pueda demorarse el calostro y la bajada de leche.',
-        urlImage: './src/assets/Test-Lili-Pregunata-cuatro-La-cesarea-influye-en-que-no-tenga-buena-bajada-de-leche.jpg'
     },
     {
-        pregunta:'El padre cumple un papel fundamental en la lactancia por que...',
+        pregunta:'<p>Personnel changes, fluctuations and absences are particularly pronounced here. Recruiting suitable leaders is difficult and time-consuming.</p><ul><li>Are you certain about the competence and trustworthiness of your executives?</li><li>Is your organization prepared for staff failures and fluctuations?</li></ul>',
         respuestas: [
             {
-                respuesta: 'Debe conocer el proceso para ayudar a la madre.',
-                correct: false
-            },
-            {
-                respuesta: 'Debe hacer el conteo de pañales',
-                correct: false
-            },
-            {
-                respuesta: 'Puede ayudar con los masajes y sacada manual de calostro.',
-                correct: false
-            },
-            {
-                respuesta: 'Puede ayudar a dar un tetero en la noche para que la mamá descanse.',
-                correct: false
-            },
-            {
-                respuesta: 'Todas menos la última.',
+                respuesta: 'Yes',
                 correct: true
             },
             {
-                respuesta: 'Sólo la última.',
-                correct: false
-            },
-        ],
-        explicacion: 'El papá debe estár durante todo el proceso de lactancia para ayudar a la madre. Dar un tetero no es la mejor opción en lactancia.',
-        urlImage: './src/assets/Test-Lili-Pregunata-cinco-El-padre-cumple-un-papel-fundamental-en-la-lactancia-por-que.jpg'
-    },
-    {
-        pregunta:'Si el bebé debe quedar en la unidad de recién nacidos...',
-        respuestas: [
-            {
-                respuesta: 'La madre debe descansar.',
-                correct: false
-            },
-            {
-                respuesta: 'La madre no debe extraeerse.',
-                correct: false
-            },
-            {
-                respuesta: 'La madre debe entrenarse en tetero.',
-                correct:  false
-            },
-            {
-                respuesta: 'La madre debe visitarlo y entrenarse en extracción de día y noche y técnicas de alimentación diferente al chupo.',
-                correct: true
-            }
-        ],
-        explicacion: 'La producción de calostro y leche es un estímulo y el cuerpo debe tener de día y de noche. Si no estás con él bebé debes extraerte todo el tiempo posible y aprender cómo darle esa leche con dispositivos diferentes al tetero.',
-        urlImage: './src/assets/Test-Lili-Pregunata-seis-Si-el-bebé-debe-quedar-en-la-unidad-de-recién-nacidos.jpg'
-    },
-    {
-        pregunta:'Entre el día 3 y 5 la madre observa que el bebé...',
-        respuestas: [
-            {
-                respuesta: 'Duerme más.',
-                correct: false
-            },
-            {
-                respuesta: 'Coma cada 20 minutos de cada seno.',
-                correct: false
-            },
-            {
-                respuesta: 'Succiona mucho para ayudarle a la bajada de leche.',
-                correct: true
-            },
-            {
-                respuesta: 'Orina 3 pañales al día.',
+                respuesta: 'No',
                 correct: false
             }
         ],
-        explicacion: 'El bebé mama mucho en las noches para ayudar al proceso de bajada de la leche y así aumentar de peso, esto gracias a la Prolactina que es una hormona nocturna.',
-        urlImage: './src/assets/Test-Lili-Pregunata-siete-Entre-el-día-3-y-5-la-madre-observa-que-el-bebé.jpg'
+        explicacion: 'As experienced management staff in leading multinational companies and as lead auditors, we can immediately take on financial and operational responsibility and ensure the smooth progress of business.',
+        urlImage: './src/assets/IntroTest.jpg'
     },
     {
-        pregunta:'Un signo de deshidratación del bebé es...',
+        pregunta:'<p>International accounting standards and corporate guidelines diverge greatly from local guidelines. Incorrect and delayed reporting to the parent company can often be found.</p><ul><li>Have there already been errors in reporting to the parent company?</li><li>Have you already noticed cost overruns on the part of external auditors?</li><li>Did you have delays in reporting or implausible information and thus additional work?</li><li>Have trustworthy financial metrics that give you an overview of the local situation?</li></ul>',
         respuestas: [
             {
-                respuesta: 'El bebé no hace pipi.',
+                respuesta: 'Yes',
                 correct: false
             },
             {
-                respuesta: 'El bebé llora constantemente.',
-                correct: false
-            },
-            {
-                respuesta: 'El bebé duerme más de 5 horas.',
-                correct: false
-            },
-            {
-                respuesta: 'El bebé está muy ictérico.',
-                correct: false
-            },
-            {
-                respuesta: 'Todas las anteriores.',
+                respuesta: 'No',
                 correct: true
             }
         ],
-        explicacion: 'Los recién nacidos no solo “duermen y comen”. Por eso debemos despertarlos y estimularlos frecuentemente para que coman, ya que las gotas de calostro que toman son muy pocas y necesitamos que estén constantemente pegados y succionando: haciendo lo que mejor saben hacer.',
-        urlImage: './src/assets/Test-Lili-Pregunata-ocho-Un-signo-de-deshidratación-del-bebé-es.jpg'
+        explicacion: 'Our experts in international accounting and financial reporting reduce costly and time-consuming clarifications and audit costs.',
+        urlImage: './src/assets/IntroTest.jpg'
     },
-    {
-        pregunta:'Al nacer los bebés pierden...',
-        respuestas: [
-            {
-                respuesta: 'El 2% del peso de nacido máximo',
-                correct: false
-            },
-            {
-                respuesta: 'El 15% del peso de nacido máximo',
-                correct: false
-            },
-            {
-                respuesta: 'El 7% del peso de nacido máximo',
-                correct: false
-            },
-            {
-                respuesta: 'El 10 % del peso de nacido máximo',
-                correct: true
-            }
-        ],
-        explicacion: '¡Esto debe ser súper riguroso!  ES NORMAL QUE PIERDAN PESO PERO NO DEBEN PERDER MÁS DEL 10%.',
-        urlImage: './src/assets/Test-Lili-Pregunata-nueve-Al-nacer-los-bebés-pierden.jpg'
-    },
-    {
-        pregunta:'Durante el embarazo debes prepararte para la lactancia...',
-        respuestas: [
-            {
-                respuesta: 'Revisando los pezones',
-                correct: false
-            },
-            {
-                respuesta: 'Organizando la habitación',
-                correct: false
-            },
-            {
-                respuesta: 'Comprando el extractor',
-                correct: false
-            },
-            {
-                respuesta: 'Con la información recibida, el grupo familiar y al grupo de apoyo de lactancia',
-                correct: true
-            }
-        ],
-        explicacion: 'Cuando nos dicen que estamos embarazadas y pensamos en todo lo que necesitamos está afuera, pero en la lactancia no necesitas nada de afuera. Necesitas tu grupo familiar, tu conocimiento, aclarar tus miedos y tus desafíos propios, eso es la lactancia, prepararte y preparar a la familia para los nuevos retos.',
-        urlImage: './src/assets/Test-Lili-Pregunata-diez-Durante-el-embarazo-debes-prepararte-para-la-lactancia.jpg'
-    },*/
 ]
 
 const valoresRespuestas = [
     {
         opcion: "Your company is exposed to a very high risk. Contact us and get advice.",
-        puntaje: [0, 1, 2, 3, 4]
+        puntaje: [0, 1, 2,]
     },
     {
         opcion: "Your company is exposed to a medium risk. Contact us and get advice.",
-        puntaje: [5, 6, 7, 8]
+        puntaje: [3, 4]
     },
     {
         opcion: "Good job! Your company is exposed to low risk. You can optimize your processes and projects with our support",
-        puntaje: [9, 10]
+        puntaje: [5]
     }
 ]
 
@@ -362,7 +227,7 @@ const noHayRespuestas = (options) => {
 
 /* Función para validar si la respuesta es correcta o no */
 let contadorRespuestasCorrectas = 0
-const calculoPorcentaje = () => contadorRespuestasCorrectas*preguntas.length
+const calculoPorcentaje = () => (contadorRespuestasCorrectas*100)/preguntas.length
 
 const validarRespuesta = (e) => {
     const respuesta = e.target
@@ -391,7 +256,7 @@ const validarRespuesta = (e) => {
             más info, documentación sweet alert:
                 https://sweetalert.js.org/guides/#installation
         */
-        swal("Hey!","Solo una respuesta por pregunta", "error");
+        swal("Oops!","Only one answer per question", "error");
     }
 }
 
@@ -420,6 +285,10 @@ const numeroProgreso= (current, target) => {
         numeroProgreso(current + 1, target);
     }, 30);
 };
+
+
+console.log("Cantidad Preguntas: "+preguntas.length)
+
 
 
 /********************  Bloque de código para pasar a la siguiente pregunta ****************/

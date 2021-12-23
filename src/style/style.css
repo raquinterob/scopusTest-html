@@ -1,7 +1,7 @@
 :root {
 	/* color */
-	--main-color: #00568b;
-	--error-color: #f17a7a;
+	--main-color: #2f3c69;
+	--error-color: #7292ff;
 }
 * {
 	margin: 0;
@@ -9,7 +9,7 @@
 	box-sizing: border-box;
 }
 body {
-	font-family: "Raleway", sans-serif;
+	font-family: "Montserrat", Arial, Tahoma, sans-serif;
 }
 .main {
 	padding-top: 50px;
@@ -219,7 +219,7 @@ body {
 	align-items: flex-start;
 }
 .logo {
-	width: 300px;
+	width: 200px;
 	padding-left: 60px;
 	margin-bottom: 40px;
 }
@@ -247,6 +247,9 @@ body {
 	border: 1px solid var(--main-color);
 	background-color: var(--main-color);
 	cursor: pointer;
+	font-family: "Montserrat", Arial, Tahoma, sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 2px;
 	font-size: 14px;
 	color: white;
 	position: relative;
@@ -287,7 +290,6 @@ body {
 .despedida {
 	font-size: 48px;
 	margin: 50px 0;
-	font-family: "Pacifico", cursive;
 	color: var(--main-color);
 }
 .resultadoTexto {

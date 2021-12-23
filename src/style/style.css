@@ -219,7 +219,7 @@ body {
 	align-items: flex-start;
 }
 .logo {
-	width: 200px;
+	width: 150px;
 	padding-left: 60px;
 	margin-bottom: 40px;
 }
@@ -322,6 +322,7 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	text-transform: uppercase;
 }
 .link1,
 .link2,
@@ -331,8 +332,8 @@ body {
 }
 .link1,
 .link2 {
-	padding: 6px;
-	border-radius: 4px;
+	padding: 10px 20px;
+	border-radius: 20px;
 	margin: 0 10px 20px;
 	transition: all 0.1s ease-in-out;
 }
@@ -369,8 +370,9 @@ body {
 	color: var(--main-color);
 }
 
+/*
 .link1::before,
-.link2::before,
+.link2::before,*/
 .link3::before {
 	position: absolute;
 	bottom: 0;
@@ -381,7 +383,7 @@ body {
 	background-color: var(--main-color);
 	content: "";
 	transition: all 0.1s ease-in-out;
-}
+}/*
 .link1::before,
 .link2::before {
 	height: 100%;
@@ -392,7 +394,7 @@ body {
 .link2:hover::before {
 	width: 100%;
 	transition: all 0.3s ease-in-out;
-}
+}*/
 .link3:hover::before {
 	width: 120%;
 	transition: all 0.3s ease-in-out;
@@ -492,7 +494,7 @@ body {
 		padding: 20px 10px;
 	}
 	.logo {
-		margin-bottom: 0;
+		margin-bottom: 20px;
 	}
 	.despedida {
 		font-size: 38px;

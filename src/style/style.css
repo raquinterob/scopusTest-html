@@ -58,6 +58,7 @@ body {
 }
 .sub {
 	align-self: flex-start;
+	color:rgb(131, 131, 131);
 }
 
 /* Esta es la sección donde se cargan todos los datos */
@@ -66,10 +67,11 @@ body {
 	margin: 30px 0;
 }
 .question {
-	color: var(--main-color);
-	font-size: 25px;
-	font-weight: 200;
+	font-size: 0.9em;
 	margin-bottom: 15px;
+}
+.question li {
+	margin-left: 20px;
 }
 .buttons {
 	display: flex;
@@ -89,6 +91,7 @@ body {
 	background-color: white;
 	cursor: pointer;
 	font-size: 14px;
+	font-family: "Montserrat", Arial, Tahoma, sans-serif;
 	color: var(--main-color);
 	position: relative;
 	overflow: hidden;
@@ -126,6 +129,7 @@ body {
 }
 .next {
 	font-size: 20px;
+	font-family: "Montserrat", Arial, Tahoma, sans-serif;
 	color: var(--main-color);
 	display: flex;
 	cursor: pointer;
@@ -156,6 +160,10 @@ body {
 .arrow {
 	width: 20px;
 	margin-left: 10px;
+}
+.exp {
+	color: var(--main-color);
+	font-size: 1,1em;
 }
 
 /* Esta es la sección donde se cargan las imágenes */
@@ -215,13 +223,16 @@ body {
 	margin-bottom: 60px;
 }
 .introQuest {
-	padding: 50px 200px 50px 40px;
+	padding: 50px 80px 50px 40px;
 	align-items: flex-start;
 }
 .logo {
 	width: 150px;
 	padding-left: 60px;
 	margin-bottom: 40px;
+}
+.logo.logoResultado {
+	width: 50px;
 }
 .introPregunta {
 	color: var(--main-color);
@@ -241,7 +252,7 @@ body {
 }
 .btnIntro {
 	width: 48%;
-	margin: 15px 0;
+	margin: 15px auto;
 	padding: 15px 10px;
 	border-radius: 50px;
 	border: 1px solid var(--main-color);
@@ -254,7 +265,7 @@ body {
 	color: white;
 	position: relative;
 	overflow: hidden;
-	margin-left: 60px;
+	text-align: center;
 }
 .btnIntro::before {
 	position: absolute;

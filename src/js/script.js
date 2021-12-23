@@ -1,80 +1,50 @@
-
-
 /* Objeto con todas las preguntas */
 const preguntas =[
     {
-        pregunta:'Si tienes los pezones planos...',
+        pregunta:'Latin America is a hotspot for corruption and nepotism. How sure are you in your company that you will not suffer losses through corruption and nepotism?',
         respuestas: [
             {
-                respuesta: 'Tienes que prepararlos',
-                correct: false
-            },
-            {
-                respuesta: 'No vas a poder lactar',
-                correct: false
-            },
-            {
-                respuesta: 'Lactas normalmente',
+                respuesta: 'Sure',
                 correct: true
             },
             {
-                respuesta: 'Puedes usar pezonera',
+                respuesta: 'Not so sure',
                 correct: false
             }
         ],
-        explicacion: 'Los pezones no tienen leche, la leche está en la aréola. Debes prepararte psicológicamente para todo lo que te digan, siempre vas a escuchar comentarios que no necesitas.',
-        urlImage: './src/assets/Test-Lili-Pregunata-uno-Si-tienes-pezones-planos.jpg'
+        explicacion: 'Our legal, auditing, and financial experts ensure that you not only avoid corruption, but also local and international regulations (taxes, finance, occupational safety, competition law, the environment and much more.)',
+        urlImage: './src/assets/IntroTest.jpg'
     },
     {
-        pregunta:'¿Cuantos pañales debe orinar el bebe al segundo día de nacido?',
+        pregunta: "<p>Inefficiencies, unnecessary, and labor-intensive processes are common.</p><ul><li>Have you already received irrational and difficult to understand reasons for processes and facts from your local managers?</li><li>Do you know the local requirements and how they affect your organization?</li><li>Are you sure that your processes in Latin America pose no risks?</li><li>Are your processes and procedures efficient and effective?</li><li>Do you have any doubts about the integrity of employees in your company in Latin America?</li>",
         respuestas: [
             {
-                respuesta: '7 - 8',
-                correct: false
-            },
-            {
-                respuesta: '10 - 12',
-                correct: false
-            },
-            {
-                respuesta: '6 - 9',
-                correct: false
-            },
-            {
-                respuesta: '3 - 5',
+                respuesta: 'Sure',
                 correct: true
             },
             {
-                respuesta: '1 - 2',
+                respuesta: 'Not so sure',
                 correct: false
             }
         ],
-        explicacion: 'Tiene que orinar entre 3 a 5 pañales, la orina nos indica si el bebé está comiendo después de nacer.',
-        urlImage: './src/assets/Test-Lili-Pregunata-dos-Cuantos-panales-debe-orinar-el-bebe-al-segundo-día-de-nacido.jpg'
+        explicacion: 'Our auditors (auditors and internal auditors) analyze your organization and processes and ensure that these are efficient, effective and in accordance with national and international legislation. Our anti-fraud specialists identify weaknesses and personal risks.',
+        urlImage: './src/assets/IntroTest.jpg'
     },
     {
-        pregunta:'El piel a piel es un momento en el que…',
+        pregunta:'<p>In the growth market Latin America offers a wide range of investments and takeovers of companies.</p><ul><li>Do you want to consolidate and safely expand your business activities?</li><li>Do you know the value of your own company and any investment objects including hidden, latent risks?</li>',
         respuestas: [
             {
-                respuesta: 'Debe durar en promedio 50 minutos a 2 horas.',
-                correct: false
-            },
-            {
-                respuesta: 'El bebé se adapta mejor al medio extrauterino.',
-                correct: false
-            },
-            {
-                respuesta: 'Es el mejor estímulo para iniciar la lactancia.',
-                correct: false
-            },
-            {
-                respuesta: 'Todas las anteriores.',
+                respuesta: 'Yes',
                 correct: true
+            },
+            {
+                respuesta: 'No',
+                correct: false
             }
         ],
-        explicacion: 'El piel a piel (skin to skin) es el mejor momento para lograr que los bebés inician “solos” el proceso de lactancia materna y se encuentren con su madre: a la que conocen intrauterinamente y ahora deben reconocerla extrauterinamente. También es un momento donde la madre se siente tranquila y confiada de tener al bebe a su lado.',
-        urlImage: './src/assets/Test-Lili-Pregunata-tres-El-piel-a-piel-es-un-momento-en-el-que.jpg'
-    },
+        explicacion: 'Work with local, inexpensive corporate finance and M&A specialists. We also know the cultural soft facts and risks that have to be taken into account as well as the mathematically calculated value of an investment.',
+        urlImage: './src/assets/IntroTest.jpg'
+    },/*
     {
         pregunta:'¿La cesárea influye en que no tenga buena bajada de leche?',
         respuestas: [
@@ -239,21 +209,21 @@ const preguntas =[
         ],
         explicacion: 'Cuando nos dicen que estamos embarazadas y pensamos en todo lo que necesitamos está afuera, pero en la lactancia no necesitas nada de afuera. Necesitas tu grupo familiar, tu conocimiento, aclarar tus miedos y tus desafíos propios, eso es la lactancia, prepararte y preparar a la familia para los nuevos retos.',
         urlImage: './src/assets/Test-Lili-Pregunata-diez-Durante-el-embarazo-debes-prepararte-para-la-lactancia.jpg'
-    },
+    },*/
 ]
 
 const valoresRespuestas = [
     {
-        opcion: "Aún te falta prepararte para la llegada de tu bebé! resuelve muchas dudas en mis videotutoriales, blogs y/o podcast. Tambien puedes agendar una consulta para seguir aprendiendo.",
-        puntaje: [0, 1, 2, 3]
+        opcion: "Your company is exposed to a very high risk. Contact us and get advice.",
+        puntaje: [0, 1, 2, 3, 4]
     },
     {
-        opcion: "Estas informada pero aún te falta repasar algunos temas para la llegada de tu bebé. Encuentra en mis videotutoriales, blogs y/o podcast toda la información ideal para estar 100% lista!",
-        puntaje: [4, 5, 6, 7]
+        opcion: "Your company is exposed to a medium risk. Contact us and get advice.",
+        puntaje: [5, 6, 7, 8]
     },
     {
-        opcion: "Felicitaciones! estas lista para el primer paso con tu bebé! una excelente nutrición y crear lazos fuertes es indispensable estos primeros 5 días! Puedes complementar esta información con los podcast, blogs y/o videotutoriales en mi página, para que sepas que viene después en el camino de la lactancia materna!",
-        puntaje: [8, 9, 10]
+        opcion: "Good job! Your company is exposed to low risk. You can optimize your processes and projects with our support",
+        puntaje: [9, 10]
     }
 ]
 
@@ -309,7 +279,7 @@ const fnPreguntas = () =>
                 <div class="dinamico" data-index="${index+1}">
                     <article class="quest">
                         <p class="sub" >
-                            Test ¿Estás preparada para la llegada de tu bebé?
+                            TEST: Is your company ready to work in Latin America?
                         </p>
                         <section class="container">
                             <div class="question" data-index="${index}">
@@ -319,11 +289,11 @@ const fnPreguntas = () =>
                                 ${fnOpciones(pregunta.respuestas)}
                             </div>
                             <div class="answer hide">
-                                <p class="right">
+                                <!--<p class="right">
                                     Respuesta: <span class="right__text">
-                                        ${respuestaCorrecta(pregunta.respuestas)}
+                                        /*${respuestaCorrecta(pregunta.respuestas)}*/
                                     </span>
-                                </p>
+                                </p>-->
                                 <p class="exp">
                                     ${pregunta.explicacion}
                                 </p>
@@ -333,11 +303,11 @@ const fnPreguntas = () =>
                             <span class="index">
                                 ${index + 1}
                             </span>/${preguntas.length}</div>
-                        <button class="next"> Siguiente <img src="./src/assets/right-arrow.svg" alt="" class="arrow"> </button>
+                        <button class="next"> Next <img src="./src/assets/right-arrow.svg" alt="" class="arrow"> </button>
                     </article>
                     <figure class="image">
                         <img src="${pregunta.urlImage}"
-                            alt="mujer embarazada" class="pic">
+                            alt="Scopus Test" class="pic">
                         <div class="number"><span class="index">${index + 1}</span>/${preguntas.length}</div>
                     </figure>
                 </div>
@@ -452,9 +422,6 @@ const numeroProgreso= (current, target) => {
 };
 
 
-
-
-
 /********************  Bloque de código para pasar a la siguiente pregunta ****************/
 
 /* Obtener objetos de uso global del DOM */
@@ -492,7 +459,7 @@ const siguientePregunta = (e) => {
             siguiente.classList.add('show')
         }
     }else{
-        swal('¡Espera!', 'Debes responder la pregunta', 'warning')
+        swal('Wait!', 'You must first answer the question', 'warning')
     }
 }
 
@@ -500,8 +467,6 @@ const siguientePregunta = (e) => {
 btnsSiguiente.forEach(btn => {
     btn.addEventListener('click', siguientePregunta)
 })
-
-
 
 /***************** Este bloque de texto inicia el test, es el intro ****************/
 
@@ -535,29 +500,8 @@ const cargarResultadoTexto = function () {
     })
 }
 
-
-
-
-
-
-
 /* Bloque de codigo que vuelve al inicio */
 const volver = document.getElementById('volver')
 volver.addEventListener('click', ()=>{
     location.reload()
 })
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./src/style/style.css">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap"
+            rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+        <title>Scopus Test</title>
+    </head>
+    <body>
+        <main class="main" id="main">
+            <section class="render hide hideResultado" id="resultado">
+                <div class="resultado">
+                    <div class="bg">
+                        <img src="./src/assets/Logo LiliUmana.png" alt="Logo de Lili Umaña" class="logo logoResultado">
+                        <p class="despedida">
+                            Gracias por tu participación
+                        </p>
+                        <p class="introTexto resultadoTexto" id="resultadoTexto">
+                            Se están cargando tus respuestas
+                        </p>
+                        <div class="progress">
+                            <p class="textProgress">Resultado</p>
+                            <div class="progressBar" id="progressBar">
+                                <div class="progressValue" id="progressValue"></div>
+                            </div>
+                            <span id="numero" class="numero"></span>
+                        </div>
+                        <div class=" btnResultado">
+                            <a href="https://liliumana.com/tutoriales/preparacion-para-los-5-primeros-dias-de-lactancia/"
+                                class="link1">Prepararse para la llegada del bebé</a>
+                            <a href="https://liliumana.com/talleres/" class="link2">Talleres</a>
+                            <a href="https://api.whatsapp.com/send/?phone=%2B573007142258&text=Hola+LiliUmana.com+%21%0ANecesito+una+consulta+en+lactancia.&app_absent=0"
+                                class="link1">Agendar Consulta</a>
+                        </div>
+                        <button class="link3" id="volver">Volver</button>
+                    </div>
+                </div>
+            </section>
+            <!-- Acá en este div se renderizan todas las preguntas -->
+            <section class="render" id="render">
+            </section>
+
+            <secction class="render" id="intro">
+                <div class="intro">
+                    <article class="quest introQuest">
+                        <p class="sub subIntro">Introducción</p>
+                        <img src="./src/assets/Logo LiliUmana.png" alt="logo de Lili Umaña" class="logo">
+                        <p class="introPregunta">
+                            ¿Estás <span class="peso">preparada</span> para la llegada de tu bebé?
+                        </p>
+                        <p class="introTexto">
+                            Porque los primeros 5 días son muy especiales para la nutrición y la creación de lazos con
+                            tu bebé.
+                        </p>
+                        <button class="btnIntro" id="btnInicio">Iniciar Test</button>
+                    </article>
+                    <figure class="image">
+                        <img src="./src/assets/IntroTest-Lili-Estas-preparada-para-la-llegada-de-tu-bebe.jpg"
+                            alt="Enfermera con recien nacido" class="pic">
+                    </figure>
+                </div>
+            </secction>
+        </main>
+
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+        <script src="./src/js/script.js"></script>
+    </body>
+
+</html>

@@ -36,7 +36,7 @@ body {
 }
 .quest {
 	width: 58%;
-	background: url("../assets/Test-LiliUmana-Fondo-de-preguntas.jpg") no-repeat
+	background: url("../assets/Test-Scopus-Fondo-de-preguntas.jpg") no-repeat
 		center;
 	background-size: cover;
 	display: flex;
@@ -320,7 +320,7 @@ body {
 	width: 100%;
 }
 .bg {
-	background: url(../assets/Test-LiliUmana-Fondo-de-resultado.jpg) center
+	background: url(../assets/Test-Scopus-Fondo-de-resultado.jpg) center
 		no-repeat;
 	background-size: cover;
 	border-radius: 20px;

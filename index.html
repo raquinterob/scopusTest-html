@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./src/style/style.css">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+            rel="stylesheet">
+        <title>Scopus Test</title>
+    </head>
+    <body>
+        <main class="main" id="main">
+            <section class="render hide hideResultado" id="resultado">
+                <div class="resultado">
+                    <div class="bg">
+                        <img src="./src/assets/Logo-Scopus.png" alt="Scopus-Parterns Logo" class="logo logoResultado">
+                        <!--<p class="despedida">
+                            Gracias por tu participación
+                        </p>-->
+                        <div class="progress">
+                            <p class="textProgress">Results</p>
+                            <div class="progressBar" id="progressBar">
+                                <div class="progressValue" id="progressValue"></div>
+                            </div>
+                            <span id="numero" class="numero"></span>
+                        </div>
+                        <p class="introTexto resultadoTexto" id="resultadoTexto">
+                            Your answers are loading
+                        </p>
+                        <!--
+                        <div class=" btnResultado">
+                            <a href="https://liliumana.com/tutoriales/preparacion-para-los-5-primeros-dias-de-lactancia/"
+                                class="link1">Is your company ready to work in Latin America?</a>
+                            <a href="https://dv.rqdigital.co/scopus/#services" class="link2">Services</a>
+                            <a href="https://dv.rqdigital.co/scopus/#contact" class="link1">Contact Us</a>
+                        </div>
+                        -->
+                        <button class="link3" id="volver">Start Again</button>
+                    </div>
+                </div>
+            </section>
+            <!-- Acá en este div se renderizan todas las preguntas -->
+            <section class="render" id="render">
+            </section>
+
+            <secction class="render" id="intro">
+                <div class="intro">
+                    <article class="quest introQuest">
+                        <img src="./src/assets/Logo-Scopus.png" alt="Scopus-Parterns Logo" class="logo">
+                        <p class="introPregunta">
+                            Is your company ready to work in Latin America?
+                        </p>
+                        <p class="introTexto">
+                            Latin America has several challenges that your company must prepare for.
+                        </p>
+                        <button class="btnIntro" id="btnInicio">Start Test</button>
+                    </article>
+                    <figure class="image">
+                        <img src="./src/assets/IntroTest.jpg"
+                            alt="" class="pic">
+                    </figure>
+                </div>
+            </secction>
+        </main>
+
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+        <script src="./src/js/script.js"></script>
+    </body>
+
+</html>

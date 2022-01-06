@@ -13,7 +13,7 @@ const preguntas =[
             }
         ],
         explicacion: 'Our legal, auditing, and financial experts ensure that you not only avoid corruption, but also local and international regulations (taxes, finance, occupational safety, competition law, the environment and much more.)',
-        urlImage: './src/assets/IntroTest.jpg'
+        urlImage: 'http://scopus-partners.com/wp-content/uploads/test-scopus/assets/IntroTest.jpg'
     },
     {
         pregunta: "<p>Inefficiencies, unnecessary, and labor-intensive processes are common.</p><ul><li>Have you already received irrational and difficult to understand reasons for processes and facts from your local managers?</li><li>Do you know the local requirements and how they affect your organization?</li><li>Are you sure that your processes in Latin America pose no risks?</li><li>Are your processes and procedures efficient and effective?</li><li>Do you have any doubts about the integrity of employees in your company in Latin America?</li>",
@@ -28,7 +28,7 @@ const preguntas =[
             }
         ],
         explicacion: 'Our auditors (auditors and internal auditors) analyze your organization and processes and ensure that these are efficient, effective and in accordance with national and international legislation. Our anti-fraud specialists identify weaknesses and personal risks.',
-        urlImage: './src/assets/IntroTest.jpg'
+        urlImage: 'http://scopus-partners.com/wp-content/uploads/test-scopus/assets/IntroTest.jpg'
     },
     {
         pregunta:'<p>In the growth market Latin America offers a wide range of investments and takeovers of companies.</p><ul><li>Do you want to consolidate and safely expand your business activities?</li><li>Do you know the value of your own company and any investment objects including hidden, latent risks?</li>',
@@ -43,7 +43,7 @@ const preguntas =[
             }
         ],
         explicacion: 'Work with local, inexpensive corporate finance and M&A specialists. We also know the cultural soft facts and risks that have to be taken into account as well as the mathematically calculated value of an investment.',
-        urlImage: './src/assets/IntroTest.jpg'
+        urlImage: 'http://scopus-partners.com/wp-content/uploads/test-scopus/assets/IntroTest.jpg'
     },
     {
         pregunta:'<p>Personnel changes, fluctuations and absences are particularly pronounced here. Recruiting suitable leaders is difficult and time-consuming.</p><ul><li>Are you certain about the competence and trustworthiness of your executives?</li><li>Is your organization prepared for staff failures and fluctuations?</li></ul>',
@@ -58,7 +58,7 @@ const preguntas =[
             }
         ],
         explicacion: 'As experienced management staff in leading multinational companies and as lead auditors, we can immediately take on financial and operational responsibility and ensure the smooth progress of business.',
-        urlImage: './src/assets/IntroTest.jpg'
+        urlImage: 'http://scopus-partners.com/wp-content/uploads/test-scopus/assets/IntroTest.jpg'
     },
     {
         pregunta:'<p>International accounting standards and corporate guidelines diverge greatly from local guidelines. Incorrect and delayed reporting to the parent company can often be found.</p><ul><li>Have there already been errors in reporting to the parent company?</li><li>Have you already noticed cost overruns on the part of external auditors?</li><li>Did you have delays in reporting or implausible information and thus additional work?</li><li>Have trustworthy financial metrics that give you an overview of the local situation?</li></ul>',
@@ -73,7 +73,7 @@ const preguntas =[
             }
         ],
         explicacion: 'Our experts in international accounting and financial reporting reduce costly and time-consuming clarifications and audit costs.',
-        urlImage: './src/assets/IntroTest.jpg'
+        urlImage: 'http://scopus-partners.com/wp-content/uploads/test-scopus/assets/IntroTest.jpg'
     },
 ]
 
@@ -132,9 +132,7 @@ Array.prototype.aleatorio = function() {
     return this;
 }
 
-
 /* Función que recorre cada uno de los objetos del array "preguntas" creando el template para poder renderizarlos */
-
 
 const fnPreguntas = () =>
     preguntas
@@ -168,7 +166,7 @@ const fnPreguntas = () =>
                             <span class="index">
                                 ${index + 1}
                             </span>/${preguntas.length}</div>
-                        <button class="next"> Next <img src="./src/assets/right-arrow.svg" alt="" class="arrow"> </button>
+                        <button class="next"> Next <img src="http://scopus-partners.com/wp-content/uploads/test-scopus/assets/right-arrow.svg" alt="" class="arrow"> </button>
                     </article>
                     <figure class="image">
                         <img src="${pregunta.urlImage}"
@@ -190,12 +188,10 @@ const render = () => {
 /* Ejecución de funciones */
 render()
 
-
 /*********** Bloque de código para validar la respuesta correcta. Debe ejecutarse todo al final ya que hay que esperar que renderice todo primero *******************/
 
 /* Llamado de elementos al DOM */
 const options = document.querySelectorAll('.options')
-
 
 /* Funciones */
 /* Función para buscar padre */
@@ -266,7 +262,6 @@ options.forEach(option => {
 
 })
 
-
 /************* Bloque de código para medir la barra de progreso ***************/
 
 const numero = document.getElementById('numero')
@@ -290,13 +285,11 @@ const numeroProgreso= (current, target) => {
 console.log("Cantidad Preguntas: "+preguntas.length)
 
 
-
 /********************  Bloque de código para pasar a la siguiente pregunta ****************/
 
 /* Obtener objetos de uso global del DOM */
 const btnsSiguiente = document.querySelectorAll('.next')
 const resultado = document.getElementById('resultado')
-
 
 /* Función para pasar a la siguiente pregunta */
 const siguientePregunta = (e) => {
@@ -353,7 +346,6 @@ btnInicio.addEventListener('click', () => {
     const dinamico = document.querySelectorAll('.dinamico')
     dinamico[dinamico.length-1].classList.add('show')
 })
-
 
 /* Bloque de código para mostrar las respuestas */
 const resultadoTexto = document.getElementById('resultadoTexto')
